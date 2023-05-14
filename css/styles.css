@@ -680,3 +680,6 @@ img {
 .modal-svg {
   transition: fill var(--fast-anim);
 }
+
+.modal-form {
+}
