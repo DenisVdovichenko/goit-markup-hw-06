@@ -416,12 +416,12 @@
           </ul>
         </div>
         <div>
-          <p></p>
-          <input type="email" />
+          <p>Subscribe</p>
+          <input type="email" name="email" placeholder="E-mail" />
           <button type="button" class="button">
             <span>Subscribe</span>
             <svg>
-              <use href="./images/icons.svg"></use>
+              <use href="./images/icons.svg#icon-Frame-3"></use>
             </svg>
           </button>
         </div>
@@ -436,27 +436,45 @@
         </button>
         <h2>Leave your contacts and we will call you back</h2>
         <form class="modal-form"></form>
-        <input type="text" />
-        <svg>
-          <use href="./images/icons.svg"></use>
-        </svg>
-
-        <input type="tel" />
-        <input type="email" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-        <svg>
-          <use href="./images/icons.svg"></use>
-        </svg>
-        <svg>
-          <use href="./images/icons.svg"></use>
-        </svg>
-        <button type="button" class="button">
-          Send
+        <label class="">
+          Name
+          <input type="text" name="name" placeholder="" />
           <svg>
-            <use href="./images/icons.svg"></use>
+            <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
           </svg>
-        </button>
+        </label>
+        <label class="for-form">
+          Phone
+          <input type="tel" name="tel" placeholder="" />
+          <svg>
+            <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
+          </svg>
+        </label>
+        <label class="for-form">
+          Email
+          <input type="email" name="email" placeholder="" />
+          <svg class="">
+            <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
+          </svg>
+        </label>
+        <label class="">
+          Comment
+          <textarea
+            name="Comment"
+            rows="10"
+            placeholder="Text input"
+          ></textarea>
+        </label>
+        <label>
+          I accept the terms and conditions of the
+          <span class="">Privacy Policy</span>
+          <input type="checkbox" name="checkbox" />
+          <svg class="check-container">
+            <use href="./images/icons.svg#icon-Property-1click-1"></use>
+          </svg>
+        </label>
+
+        <button type="button" class="button">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
