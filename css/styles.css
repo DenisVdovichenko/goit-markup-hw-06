@@ -693,3 +693,13 @@ img {
 
 .for-form {
 }
+
+.modal-text {
+  resize: both;
+  overflow: auto;
+  width: 360px;
+  min-height: 120px;
+}
+
+.accept-modal-dop {
+}
