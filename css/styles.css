@@ -643,6 +643,7 @@ img {
 }
 
 .for-subscribe {
+  display: block;
   margin-right: 280px;
 }
 
