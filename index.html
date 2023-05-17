@@ -415,11 +415,19 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="container all-footer">
           <p class="title-footer">Subscribe</p>
-          <input type="email" name="email" placeholder="E-mail" />
-          <button type="button" class="button">
-            <span>Subscribe</span>
+          <label>
+            <!-- <span class="title-footer">Subscribe</span> -->
+            <input
+              type="email"
+              class="footer-ipt"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button type="button" class="subscribe-button">
+            <span class="for-button">Subscribe</span>
             <svg class="" width="24" height="24">
               <use href="./images/icons.svg#icon-Frame-3"></use>
             </svg>
@@ -427,6 +435,7 @@
         </div>
       </div>
     </footer>
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="submit" class="modal-btn" data-modal-close>
