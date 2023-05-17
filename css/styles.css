@@ -642,6 +642,15 @@ img {
   margin-right: 24px;
 }
 
+.for-subscribe {
+  margin-right: 280px;
+}
+
+.title-subscribe {
+  display: block;
+  margin-bottom: 16px;
+}
+
 /* Modal style */
 
 .backdrop.is-hidden {
