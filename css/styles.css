@@ -573,7 +573,9 @@ img {
 }
 
 .form-footer-email {
+  display: block;
   align-items: center;
+  margin-left: 80px;
 }
 
 .logo-part {
@@ -644,11 +646,19 @@ img {
 
 .footer-ipt {
   margin-right: 24px;
+  padding: 8px 16px;
+  border: 1px solid var(--primary-white-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--title-text);
+}
+
+.footer-ipt::placeholder {
+  color: var(--primary-white-color);
 }
 
 .for-subscribe {
   display: block;
-  margin-right: 280px;
 }
 
 .title-subscribe {
