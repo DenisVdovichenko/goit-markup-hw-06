@@ -570,11 +570,10 @@ img {
 .all-footer {
   display: flex;
   align-items: baseline;
+}
 
-  outline: 2px solid red;
-  background: orange;
-  padding-bottom: 100px;
-  margin-top: 100px;
+.form-footer-email {
+  align-items: center;
 }
 
 .logo-part {
@@ -657,6 +656,10 @@ img {
   margin-bottom: 16px;
 }
 
+.form-footer {
+  display: flex;
+}
+
 /* Modal style */
 
 .backdrop.is-hidden {
@@ -732,9 +735,6 @@ img {
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-}
-
-.for-form {
 }
 
 .modal-text {
