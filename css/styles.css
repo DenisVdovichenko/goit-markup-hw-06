@@ -31,12 +31,12 @@
 /* body */
 
 body {
-  background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
 }
 
 /* reset start */
@@ -529,7 +529,7 @@ img {
   fill: currentColor;
 }
 
-/* footer */
+/* Footer section */
 
 .footer-color {
   background-color: var(--title-text);
@@ -570,12 +570,6 @@ img {
 .all-footer {
   display: flex;
   align-items: baseline;
-}
-
-.form-footer-email {
-  display: block;
-  align-items: center;
-  margin-left: 80px;
 }
 
 .logo-part {
@@ -644,17 +638,31 @@ img {
   margin-right: 16px;
 }
 
-.footer-ipt {
+.form-footer-email {
+  display: block;
+  align-items: center;
+  margin-left: 80px;
+}
+
+.footer-lab {
   margin-right: 24px;
+}
+
+.footer-ipt {
   padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
   border: 1px solid var(--primary-white-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: var(--title-text);
+  background-color: transparent;
 }
 
 .footer-ipt::placeholder {
-  color: var(--primary-white-color);
 }
 
 .for-subscribe {
@@ -710,7 +718,6 @@ img {
   position: absolute;
   top: 24px;
   right: 24px;
-  transition: background-color var(--fast-anim), border var(--fast-anim);
 
   display: flex;
   align-items: center;
@@ -723,6 +730,8 @@ img {
   border-radius: 50%;
   background-color: var(--accent);
   border: 1px solid rgba(0, 0, 0, 0.1);
+
+  transition: background-color var(--fast-anim), border var(--fast-anim);
 }
 
 .modal-btn:hover,
@@ -738,6 +747,9 @@ img {
 }
 
 .modal-form {
+}
+
+.for-form {
 }
 
 .check-container {
