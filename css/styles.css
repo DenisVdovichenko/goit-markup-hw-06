@@ -663,6 +663,7 @@ img {
 }
 
 .footer-ipt::placeholder {
+  color: var(--primary-white-color);
 }
 
 .for-subscribe {
