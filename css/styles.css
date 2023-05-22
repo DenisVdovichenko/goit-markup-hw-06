@@ -749,6 +749,9 @@ img {
   margin-bottom: 8px;
 }
 
+.icon-container {
+}
+
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--pressed-state);
@@ -765,6 +768,10 @@ img {
 }
 
 .for-form {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtitle-text);
 }
 
 .check-container {
