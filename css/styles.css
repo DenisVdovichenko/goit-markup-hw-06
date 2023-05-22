@@ -738,7 +738,15 @@ img {
   transition: background-color var(--fast-anim), border var(--fast-anim);
 }
 
+.modal-titile {
+  text-align: center;
+  font-weight: 500;
+  color: var(--title-text);
+  margin-bottom: 16px;
+}
+
 .modal-group {
+  margin-bottom: 8px;
 }
 
 .modal-btn:hover,
