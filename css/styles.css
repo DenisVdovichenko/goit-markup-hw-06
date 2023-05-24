@@ -752,6 +752,10 @@ img {
 .icon-container {
 }
 
+.icon-element {
+  position: absolute;
+}
+
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--pressed-state);
@@ -768,10 +772,12 @@ img {
 }
 
 .for-form {
+  display: block;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--subtitle-text);
+  width: 100%;
 }
 
 .check-container {
@@ -789,4 +795,8 @@ img {
 }
 
 .accept-modal-dop {
+}
+
+.send-button {
+  margin: 0 auto;
 }
