@@ -761,7 +761,7 @@ img {
   background-color: transparent;
   padding-left: 38px;
   outline: transparent;
-  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color var(--fast-anim);
 }
 
 .input-content:focus {
@@ -770,6 +770,14 @@ img {
 
 .icon-element {
   position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill var(--fast-anim);
+}
+
+.input-content .icon-element:focus {
+  fill: var(--accent-text);
 }
 
 .modal-btn:hover,
