@@ -776,7 +776,7 @@ img {
   transition: fill var(--fast-anim);
 }
 
-.input-content .icon-element:focus {
+.input-content + .icon-element:focus {
   fill: var(--accent-text);
 }
 
