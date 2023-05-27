@@ -739,6 +739,7 @@ img {
 }
 
 .modal-titile {
+  display: block;
   text-align: center;
   font-weight: 500;
   color: var(--title-text);
@@ -833,6 +834,7 @@ img {
 }
 
 .accept-modal-dop {
+  color: var(--accent-text);
 }
 
 .comment-container {
