@@ -822,6 +822,13 @@ img {
 .accept-modal-dop {
 }
 
+.comment-container {
+  margin-bottom: 16px;
+}
+
+.comment-text {
+}
+
 .send-button {
   display: block;
   min-width: 169px;
