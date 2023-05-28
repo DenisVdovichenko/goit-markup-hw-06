@@ -808,6 +808,7 @@ img {
 .check-container {
   width: 16px;
   height: 16px;
+  padding: 4px 3px;
   border: 1px solid var(--modal-overlay);
   border-radius: 2px;
 }
@@ -840,12 +841,6 @@ img {
   margin-bottom: 24px;
 }
 
-.visually-hidden {
-  /* opacity: 0;
-  visibility: hidden;
-  pointer-events: none; */
-}
-
 .accept-policy {
   font-size: 12px;
   line-height: 1.17;
@@ -869,15 +864,15 @@ img {
   color: var(--accent-text);
 }
 
+.visually-hidden {
+  appearance: none;
+}
+
 .checkbox:checked + .accept-policy > .policy-wrapper > .check-container {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--primary-white-color);
   border-color: var(--pressed-state);
-}
-
-.agreement-icon {
-  /* opacity: 0; */
 }
 
 .send-button {
