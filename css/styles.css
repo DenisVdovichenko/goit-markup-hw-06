@@ -866,6 +866,7 @@ img {
 
 .visually-hidden {
   appearance: none;
+  position: absolute;
 }
 
 .visually-hidden:checked + .accept-policy > .policy-wrapper > .check-container {
