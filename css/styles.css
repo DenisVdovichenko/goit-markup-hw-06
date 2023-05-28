@@ -869,6 +869,13 @@ img {
   color: var(--accent-text);
 }
 
+.checkbox + .policy-wrapper:focus {
+  background-color: var(--pressed-state);
+  border: none;
+  fill: var(--primary-white-color);
+  border-color: var(--pressed-state);
+}
+
 .send-button {
   display: block;
   min-width: 169px;
