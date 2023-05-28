@@ -862,7 +862,6 @@ img {
   height: 16px;
   border: 1px solid var(--modal-overlay);
   border-radius: 2px;
-  color: var(--accent-text);
   fill: transparent;
 }
 
