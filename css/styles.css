@@ -847,10 +847,23 @@ img {
 }
 
 .accept-policy {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--subtitle-text);
 }
 
 .policy-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--modal-overlay);
+  border-radius: 2px;
   color: var(--accent-text);
+  fill: transparent;
 }
 
 .send-button {
