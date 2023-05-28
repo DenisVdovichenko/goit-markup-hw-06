@@ -841,9 +841,9 @@ img {
 }
 
 .visually-hidden {
-  opacity: 0;
+  /* opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  pointer-events: none; */
 }
 
 .accept-policy {
@@ -869,7 +869,7 @@ img {
   color: var(--accent-text);
 }
 
-.checkbox + .policy-wrapper:focus {
+.checkbox:focus + .policy-wrapper {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--primary-white-color);
