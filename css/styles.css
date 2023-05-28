@@ -865,6 +865,10 @@ img {
   fill: transparent;
 }
 
+.link-policy {
+  color: var(--accent-text);
+}
+
 .send-button {
   display: block;
   min-width: 169px;
