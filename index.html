@@ -502,11 +502,17 @@
             ></textarea>
           </div>
           <div class="user-agree-container">
-            <label for="user-privacy" class="">
+            <input
+              class="visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label for="user-privacy" class="accept-policy">
               I accept the terms and conditions of the
-              <span class="accept-modal-dop">Privacy Policy</span></label
+              <span class="policy-wrapper">Privacy Policy</span></label
             >
-            <input type="checkbox" name="checkbox" id="user-privacy" />
             <svg class="check-container" width="10" height="8">
               <use href="./images/icons.svg#icon-Property-1click-1"></use>
             </svg>
