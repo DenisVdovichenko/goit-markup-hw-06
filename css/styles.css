@@ -738,8 +738,7 @@ img {
   transition: background-color var(--fast-anim), border var(--fast-anim);
 }
 
-.modal-titile {
-  display: block;
+.modal-title {
   text-align: center;
   font-weight: 500;
   color: var(--title-text);
