@@ -869,11 +869,15 @@ img {
   color: var(--accent-text);
 }
 
-.checkbox:focus + .policy-wrapper {
+.checkbox:checked + .accept-policy > .policy-wrapper > .check-container {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--primary-white-color);
   border-color: var(--pressed-state);
+}
+
+.agreement-icon {
+  /* opacity: 0; */
 }
 
 .send-button {
