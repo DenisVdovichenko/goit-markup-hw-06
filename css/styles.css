@@ -868,7 +868,7 @@ img {
   appearance: none;
 }
 
-.checkbox:checked + .accept-policy > .policy-wrapper > .check-container {
+.visually-hidden:checked + .accept-policy > .policy-wrapper > .check-container {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--primary-white-color);
