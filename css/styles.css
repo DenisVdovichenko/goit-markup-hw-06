@@ -841,6 +841,20 @@ img {
   margin-bottom: 24px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .accept-policy {
   font-size: 12px;
   line-height: 1.17;
@@ -864,12 +878,7 @@ img {
   color: var(--accent-text);
 }
 
-.visually-hidden {
-  appearance: none;
-  position: absolute;
-}
-
-.visually-hidden:checked + .accept-policy > .policy-wrapper > .check-container {
+.input-check:checked + .accept-policy > .policy-wrapper {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--primary-white-color);
