@@ -647,7 +647,7 @@ img {
 }
 
 .footer-lab {
-  margin-right: 24px;
+  /* margin-right: 24px; */
 }
 
 .footer-ipt {
@@ -679,6 +679,7 @@ img {
 
 .form-footer {
   display: flex;
+  gap: 24px;
 }
 
 /* Modal style */
@@ -872,6 +873,8 @@ img {
   border: 1px solid var(--modal-overlay);
   border-radius: 2px;
   fill: transparent;
+  transition: background-color var(--fast-anim) border var(--fast-anim) fill
+    var(--fast-anim);
 }
 
 .link-policy {
