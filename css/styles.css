@@ -873,8 +873,11 @@ img {
   border: 1px solid var(--modal-overlay);
   border-radius: 2px;
   fill: transparent;
-  transition: background-color var(--fast-anim) border var(--fast-anim) fill
-    var(--fast-anim);
+  /* transition: background-color var(--fast-anim) border var(--fast-anim) fill
+    var(--fast-anim); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-policy {
