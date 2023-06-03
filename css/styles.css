@@ -891,6 +891,10 @@ img {
   border-color: var(--pressed-state);
 }
 
+.policy-wrapper:focus {
+  outline: 1px solid red;
+}
+
 .send-button {
   display: block;
   min-width: 169px;
