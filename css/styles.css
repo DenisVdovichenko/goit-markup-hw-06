@@ -891,8 +891,14 @@ img {
   border-color: var(--pressed-state);
 }
 
-.policy-wrapper:focus {
-  outline: 1px solid red;
+.input-check:focus + .accept-policy > .policy-wrapper {
+  border: 1px solid var(--pressed-state);
+}
+
+.link-policy:focus {
+  border: 1px solid var(--pressed-state);
+  border-radius: 2px;
+  outline: none;
 }
 
 .send-button {
